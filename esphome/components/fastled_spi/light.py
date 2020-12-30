@@ -8,6 +8,7 @@ from esphome.const import CONF_CHIPSET, CONF_CLOCK_PIN, CONF_DATA_PIN, CONF_DATA
 AUTO_LOAD = ['fastled_base']
 
 CHIPSETS = [
+    'LPD6803',
     'LPD8806',
     'WS2801',
     'WS2803',
